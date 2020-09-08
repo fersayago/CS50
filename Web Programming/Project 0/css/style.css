@@ -1,0 +1,32 @@
+
+.links {
+    text-align: right;
+}
+
+.hipervinculos {
+    padding: 5px;
+}
+
+.busqueda {
+    text-align: center;
+    margin-top: 250px;
+}
+
+#imagen {
+    width: 375px;
+}
+
+#barradebusqueda{
+    width: 550px;
+    height: 30px;
+    border-radius: 12px;
+    margin: 10px;
+    padding-inline-start: 12px;
+    }
+
+#botonBuscar {
+    background: #326ac4;
+    color: white;
+    width: 120px;
+    height: 40px;
+}
