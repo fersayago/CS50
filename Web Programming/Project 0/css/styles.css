@@ -1,0 +1,162 @@
+
+hr{
+    background-color:solid #ccc;
+    border: 1px solid #ccc;
+}
+
+h2{
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #f82424;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h4{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    width: 150px;
+}
+
+#img
+{
+    width: 270px;
+    align-self: center;
+}
+
+#imgAdv
+{
+    width: 100px;
+    align-self: left;
+}
+
+#search_input {
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    padding-inline: 40px;
+    height: 35px;
+    margin: 20px;
+}
+
+@media (min-width: 700px)
+{
+    #search_input {
+        width: 500px;
+        height: 35px;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 699px)
+{
+    #search_input {
+        width: 300px;
+        height: 35px;
+        margin: 20px;
+    }
+}
+
+#search_input_adv
+{
+    padding-inline: 10px;
+    width: 500px;
+    height: 25px;
+    margin: 7px;
+    border: 1px solid #ccc;
+}
+
+#button_adv
+{
+    background-color: #4b8efa;
+    color: white;
+    border: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 17%;
+}
+
+#button_adv:hover {
+    background-color: #4484ec;
+}
+
+.links
+{
+    text-align: right;
+    position: relative;
+    top: 12px;
+    right: 12px;
+}
+
+
+.hiper
+{
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+a:visited {
+    color: black;
+  }
+
+.hiper:hover {
+    text-decoration: underline;
+}
+
+.search
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -160px;
+    margin-left: -310px;
+    text-align: center;
+}
+
+.button
+{
+    color: #6b6b6b;
+    border-radius: 3px;
+    border: transparent;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.button:hover
+{
+    border: 1px solid #ccc;
+    color: #222121;
+}
+
+.adv_head
+{
+    margin: -10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #f3f1f1;
+    height: 40px;
+}
+
+.adv_search
+{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40px;
+    font-size: 12px;
+}
+  
+#img-fire{ 
+    position: absolute;
+    left: 400px;
+    padding-top: 27px;
+    width: 25px;
+} 
+  
+
+
